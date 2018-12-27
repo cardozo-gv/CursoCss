@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  background: linear-gradient(#eee,#777);
+  min-height: 100vh;
+  /*centramos el contenedor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#toggle{
+  display: none;
+}
+
+#toggle:checked + #boton{
+  background: #eee;
+  /*sombreado interno */
+  box-shadow: inset 0px 12px 35px rgba(0,0,0,0.5);
+
+  color: rgba(0,255,0,0.7);
+}
+
+#boton{
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  /*centramos la imagen */
+  line-height: 200px;
+  text-align: center;
+  /* agrandamos la imagen*/
+  font-size: 70px;
+  /*le damos efecto redondeado */
+  border-radius: 50%;
+
+  color: #777;
+
+  box-shadow: 0px 12px 30px rgba(0,0,0,0.7);
+  cursor: pointer;
+}

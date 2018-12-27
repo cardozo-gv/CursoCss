@@ -1,0 +1,61 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  background-size: 100% 1000px;
+  overflow: hidden;
+}
+
+.nube{
+  width: 120px;
+  height: 70px;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.nube:nth-child(1){
+    background-image: url(../img/nube1.png);
+    animation: animacion1 50s infinite;
+}
+
+.nube:nth-child(2){
+  background-image: url(../img/nube.png);
+  margin-top: 75px;
+  animation: animacion2 45s infinite;
+}
+
+.nube:nth-child(3){
+  background-image: url(../img/nubes3.png);
+  margin-top: 100px;
+  animation: animacion2 65s infinite;
+
+}
+
+.nube:nth-child(4){
+  background-image: url(../img/avion.png);
+  margin-top: 90px;
+  animation: animacion2 15s infinite;
+
+}
+
+@keyframes animacion1 {
+  from{
+    margin-left: 100%
+  }
+
+  to{
+    margin-left:-30%;
+  }
+}
+
+@keyframes animacion2 {
+  from{
+    margin-left: -30%;
+  }
+
+  to{
+    margin-left: 100%;
+  }
+}
+
+@keyframes animacion3{
+
+}

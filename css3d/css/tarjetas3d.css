@@ -17,7 +17,11 @@ body{
   box-shadow: 0px 0px 5px black;
 }
 
-.carta:hover{
+/*.carta:hover{
+  transform: rotateY(180deg);
+}*/
+
+.contenedor:hover .carta{
   transform: rotateY(180deg);
 }
 
