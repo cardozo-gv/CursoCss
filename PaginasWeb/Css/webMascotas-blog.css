@@ -1,0 +1,21 @@
+#blog h3, h4{
+  text-align: center;
+}
+
+#blog .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap; /* Los elementos que no caben en la fila se bajan*/
+  align-content: center;
+  align-items: center;
+}
+
+#blog article{
+  margin: 15px;
+}
+
+#blog img{
+  width: 100%;
+  height: 135px;
+  max-width: 280px;
+}
