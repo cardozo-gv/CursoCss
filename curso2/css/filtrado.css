@@ -1,0 +1,14 @@
+#laptop:checked ~  #imagenes .tablet,
+#laptop:checked ~  #imagenes .movil {
+  display: none;
+}
+
+#tablet:checked ~  #imagenes .laptop,
+#tablet:checked ~  #imagenes .movil {
+  display: none;
+}
+
+#movil:checked ~  #imagenes .laptop,
+#movil:checked ~  #imagenes .tablet {
+  display: none;
+}
